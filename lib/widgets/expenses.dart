@@ -47,7 +47,7 @@ class _Expenses extends State<Expenses> {
       ),
       body: Column(
         children: [
-          const Text('Graficos'),
+          const Text('Grafici'),
           Expanded(
             child: ExpensesList(expenses: _registeredExpenses),
           ),
