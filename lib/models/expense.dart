@@ -5,7 +5,7 @@ import 'package:uuid/uuid.dart';
 // Uuid libreria esterna per creare degli ID
 const uuid = Uuid();
 
-final formatter = DateFormat.yMd();
+final formatter = DateFormat.yMd('it_IT');
 
 // un insieme ben definito di costanti
 enum Category { food, travel, leisure, work }
