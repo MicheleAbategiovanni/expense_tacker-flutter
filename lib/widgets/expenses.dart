@@ -1,4 +1,5 @@
-import 'package:expense_tacker/widgets/expenses_list/epenses_list.dart';
+import 'package:expense_tacker/widgets/chart/chart.dart';
+import 'package:expense_tacker/widgets/expenses_list/expenses_list.dart';
 import 'package:expense_tacker/models/expense.dart';
 import 'package:expense_tacker/widgets/new_expense.dart';
 import 'package:flutter/material.dart';
@@ -86,7 +87,7 @@ class _Expenses extends State<Expenses> {
       ),
       body: Column(
         children: [
-          const Text('Grafici'),
+          Chart(expenses: _registeredExpenses),
           Expanded(
             child: mainContent,
           ),
