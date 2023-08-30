@@ -1,4 +1,4 @@
-import 'package:expense_tacker/widgets/expenses.dart';
+import 'package:expense_tracker/widgets/expenses.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/date_symbol_data_local.dart'; // Importa questa libreria
 
